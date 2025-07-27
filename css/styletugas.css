@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(186, 226, 240);
+}
+
+h1 {
+    color: rgb(8, 2, 2);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(150, 9, 63);
+}
+
+h2 {
+    font-family: Cambria;
+    font-size: 25px;
+    color: rgb(17, 135, 199);
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 25px;
+    color: rgb(17, 135, 199);
+}
+
+blockquote {
+    font-family: georgia;
+    color: rgb(191, 214, 15);
+    font-style: italic;
+    text-align: justify;
+}
+
+.highligh{
+    color: rgb(211, 153, 7);
+}
+
+.tombol {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: rgb(158, 202, 7);
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.tombol:hover {
+    background-color: darkgoldenrod;
+    transition: scale(1.1);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
